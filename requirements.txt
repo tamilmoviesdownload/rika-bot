@@ -41,6 +41,8 @@ pyshorteners
 pyromod
 colorama
 
+setuptools>=68.0
+wheel
 
 
   
