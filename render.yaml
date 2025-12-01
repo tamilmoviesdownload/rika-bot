@@ -3,6 +3,7 @@ services:
   - type: web
     name: TheMovieProviderBot
     env: python
+    pythonVersion: 3.10.12
     startCommand: python3 bot.py
     buildCommand: pip3 install -U -r requirements.txt
     repo: https://github.com/HarshalPurohitEdits/TheMovieProviderBot.git # optional
