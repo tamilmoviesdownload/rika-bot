@@ -139,28 +139,3 @@ LOG_STR += ("Long IMDB storyline enabled." if LONG_IMDB_DESCRIPTION else "LONG_I
 LOG_STR += ("Spell Check Mode Is Enabled, bot will be suggesting related movies if movie not found\n" if SPELL_CHECK_REPLY else "SPELL_CHECK_REPLY Mode disabled\n")
 LOG_STR += (f"MAX_LIST_ELM Found, long list will be shortened to first {MAX_LIST_ELM} elements\n" if MAX_LIST_ELM else "Full List of casts and crew will be shown in imdb template, restrict them by adding a value to MAX_LIST_ELM\n")
 LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
-# -------------------------
-# Admins
-# -------------------------
-ADMINS = [1466559542]  # Your Telegram ID
-
-# -------------------------
-# Channels & Groups
-# -------------------------
-CHANNELS = [-1002908058571]  # Channels bot will listen to
-CHNL_LNK = "https://t.me/tamilmoviesdownloadtorrent"
-FILE_STORE_CHANNEL = [-1003404536256]  # Where bot stores files
-GRP_LNK = "https://t.me/+s4wwf5daeWRmOGJl"  # Support group link
-
-# -------------------------
-# Logging
-# -------------------------
-LOG_CHANNEL = -1003462534811  # Bot logs activities here
-
-# -------------------------
-# -------------------------
-# MongoDB
-# -------------------------
-DATABASE_URI = "mongodb+srv://ajayneymar14_db_user:sAf60CbCxOW0nUll@cluster0.tuasfws.mongodb.net/?appName=Cluster0"
-DATABASE_NAME = "ajayneymar14_db_user"
-COLLECTION_NAME = "Telegram_files"
